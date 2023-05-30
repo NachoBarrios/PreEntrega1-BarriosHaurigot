@@ -1,0 +1,24 @@
+nav.navbar {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  padding: 5px 10px;
+}
+
+.cart-widget {
+  margin-left: auto;
+}
