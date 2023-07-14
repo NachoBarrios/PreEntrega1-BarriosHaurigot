@@ -1,8 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import productsData from '../data/productsData';
-import './ItemListContainer.css'; 
+import './ItemListContainer.css';
 
 const ItemListContainer = () => {
   const { categoryId } = useParams();
@@ -24,7 +23,7 @@ const ItemListContainer = () => {
             <Link to={`/item/${product.id}`}>
               <img src={product.image} alt={product.name} className="product-image" />
               <h3 className="product-name">{product.name}</h3>
-              <p className="product-price">Precio: {product.price}</p>
+              <p className="product-price">Price: {product.price}</p>
             </Link>
           </div>
         ))
